@@ -1,0 +1,86 @@
+<html>
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  background-image: url("image?fname=lake.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1500px 800px;
+}
+
+form {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  background-color: #04AA6D;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+  
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #04AA6D;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+}
+    
+</style>
+    
+<body>
+<form action="/map.html?building=????" method="post">
+
+<label for="src2">Select the source</label>
+<select id=src2, name="src2">
+    BUTTONS1
+    </select>
+        
+<label for="dst2">Select the destination</label>
+<select id=dst2, name="dst2">
+    BUTTONS2
+    </select>
+    
+    <div style="overflow:auto;">
+    <div style="float:right;">
+<input type="submit">
+        </div>
+        </div>
+        
+</form>
+</body>
+</html>
